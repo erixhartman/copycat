@@ -4,6 +4,7 @@
 
 html {
   height: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -47,4 +48,56 @@ header {
   text-transform: capitalize;
   line-height: 60px;
   padding-right: 11px;
+}
+
+.home {
+  background-color: #26547C;
+  color: white;
+  margin: 0;
+}
+
+.img-home {
+  display: inline;
+}
+
+.home-pic {
+  padding: 0;
+  max-width: 60%;
+  width: 10%
+  float: left;
+  display: inline;;
+}
+
+.home-content {
+  font-size: 21px;
+  font-weight: bold;
+  float: right;
+  max-width: 40%;
+  display: inline;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  display: inline;
+}
+
+.cats {
+  background-color: #FFD166;
+  margin: 0;
+  padding: 30px;
+
+}
+
+.cats h4 {
+  margin-top: 0;
+}
+
+.products {
+  margin: 0;
+  padding: 30px;
+}
+
+.products-pics {
+  border: 5px solid black;
 }
