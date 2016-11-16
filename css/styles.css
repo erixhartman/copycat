@@ -99,5 +99,8 @@ h2 {
 }
 
 .products-pics {
-  border: 5px solid black;
+  border: 3px solid black;
+  display: inline;
+  width: 30%;
+  margin: 5px;
 }
