@@ -26,6 +26,11 @@ header {
   padding: 0;
 }
 
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
 .title {
   margin: 0
   line-height: 60px;
@@ -96,6 +101,7 @@ h2 {
 .products {
   margin: 0;
   padding: 30px;
+      background-color: #F2F2F2;
 }
 
 .products-pics {
@@ -103,4 +109,33 @@ h2 {
   display: inline;
   width: 30%;
   margin: 5px;
+}
+
+.about {
+  background-color: #26547C;
+  color: white;
+  margin: 0;
+  padding: 30px;
+}
+
+.about-list li{
+  color: #EF476F;
+  text-align: center;
+  margin-right: 100px;
+  font-size: 25px;
+  text-transform: uppercase;
+  list-style-type: none;
+  display: inline-block;
+}
+
+footer {
+  background-color: #06D6A0;
+  overflow: auto;
+  padding: 0;
+}
+
+.footer-text {
+  float: right;
+  padding: 20px;
+  font-size: 20px;
 }
